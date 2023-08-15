@@ -1,3 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(34, 32, 32);
+
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+    color: rgb(247, 238, 238);
+}
+
+#footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  li {
+    text-transform: uppercase;
+  }
+  li:hover {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+.active {
+    color: red;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    background: url("./steak-dinner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+#main > div {
+    background-color: #ffffffa3;
+    font-size: 16px;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
 #bgimage {
-    width: 800px;
+    opacity: 0.5;
+}
+
+h3 {
+    font-size: 20px;
+    background: #ffffffa3;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+#menuDiv > div,
+#contactDiv > div {
+    padding: 20px;
+}
+
+#contactDiv > div {
+    text-align: left;
 }
